@@ -8,7 +8,7 @@
 }
 .header{
     position: relative;
-    background-image:url("/Users/ortalparnassa/Downloads/images/header_bg.png");
+    background-image:url("/Images/header_bg.png");
     height: 105px;
     position: absolute;
     z-index: 100;
@@ -26,7 +26,7 @@ a {
 }
 .ddcontent > ul {
     background-color: #909090 ;
-    background-image:url("/Users/ortalparnassa/Desktop/Paz/MidProject/Images/menu_dropdown_bg.png");
+    background-image:url("/Images/menu_dropdown_bg.png");
     background-repeat: repeat-x;
 }
 
@@ -86,7 +86,6 @@ margin-left: 20px;
     margin:5px;
     font-weight: bold;
     color:white;
-    /* margin-top:60px; */
     text-align: center;
    
 }
@@ -150,16 +149,9 @@ a:hover {
     max-width:100%;
 max-height:100%;
 }
-
-/* .row3 ::after {
-        content: "";
-        clear: both;
-        display: table;
-} */
 .column {
     border:0px solid grey;
-    background-image:url(/Users/ortalparnassa/Desktop/Paz/Images/small_cube_bg.png); 
-    /* background-repeat:no-repeat 0 0; */
+    background-image:url(/Images/small_cube_bg.png); 
     float:right;
     padding-left:10px;
     padding-right:10px;
@@ -202,9 +194,6 @@ max-height:100%;
 .dropmenu2:hover > .ddcontent {
     display:block;
 }
-/* .dropmenu2 {
-    display: inline-block;
-} */
 .ddcontent > ul > li {
     float: right;
     clear: right;
@@ -233,7 +222,7 @@ max-height:100%;
     position: relative;
 }
 .readmore {
-    background: url(/Users/ortalparnassa/Desktop/Paz/Images/read_more_yellow.png) ; 
+    background: url(/Images/read_more_yellow.png); 
     background-repeat: no-repeat;
     background-position: center left;
     color:gray;
@@ -260,14 +249,9 @@ max-height:100%;
     padding: 0px;
     
 }
-
-
- /* FOOTER */
-
-
 .footer {
     position:fixed;
-    background-image:url("/Users/ortalparnassa/Downloads/images/footer_bg.png");
+    background-image:url("/Images/footer_bg.png");
     width: 100%;
     height: 40px;
     z-index: 100;
@@ -296,19 +280,16 @@ max-height:100%;
 }
 
 #facebook {
-    background-image:url("/Users/ortalparnassa/Desktop/Paz/Images/fb_icon.png");
+    background-image:url("/Images/fb_icon.png");
     background-repeat: no-repeat;
     background-position: center left;
 }
-
 #facebook > span {
     padding-left: 19px;
 }
-
 .footerul > li:last-child {
     border: none;
 }
-
 .container {
     width: 950px;
     margin: 0 auto;
