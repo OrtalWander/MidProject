@@ -151,7 +151,7 @@ max-height:100%;
 }
 .column {
     border:0px solid grey;
-    background-image:url(/Images/small_cube_bg.png); 
+    background-image:url("/Images/small_cube_bg.png"); 
     float:right;
     padding-left:10px;
     padding-right:10px;
@@ -222,7 +222,7 @@ max-height:100%;
     position: relative;
 }
 .readmore {
-    background: url(/Images/read_more_yellow.png); 
+    background: url("/Images/read_more_yellow.png"); 
     background-repeat: no-repeat;
     background-position: center left;
     color:gray;
